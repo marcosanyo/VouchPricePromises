@@ -1,0 +1,15 @@
+.env
+.env.*
+**/node_modules
+web/dist
+.git
+.visuals
+.claude
+ml
+data/*.db
+data/*.db-*
+data/raw
+data/ml
+server/experiments/seller-sim/*.log
+*service-account*.json
+hackathon-*.json

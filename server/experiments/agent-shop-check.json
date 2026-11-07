@@ -1,0 +1,641 @@
+{
+  "model": "gemini-3.8-flash",
+  "run_at": "2026-10-28T10:57:21.793Z",
+  "window_end": "2026-11-28",
+  "results": {
+    "no_estimates": {
+      "n": 10,
+      "wait": 2,
+      "Store RF75": 0,
+      "Store LK63": 8
+    },
+    "with_estimates": {
+      "n": 10,
+      "wait": 0,
+      "Store RF75": 0,
+      "Store LK63": 10
+    }
+  },
+  "runs": [
+    {
+      "with_risk": false,
+      "sample": 0,
+      "decision": "buy",
+      "store": "Store LK63",
+      "reason": "Store LK63 provides an automatic price-drop refund of up to $60 through Black Friday, effectively protecting you against future price reductions down to $238.",
+      "stores": [
+        {
+          "store": "Store RF75",
+          "price_usd": 293.99,
+          "offer": "$6 off the list price $299.99",
+          "staked_claim": {
+            "claim": "No price drop until 2026-11-28 (the day after Black Friday)",
+            "max_refund_usd": 5,
+            "refund_rule": "If this store's price falls below the price paid before 2026-11-28, the buyer is refunded the drop automatically through PayPal, up to the max refund."
+          }
+        },
+        {
+          "store": "Store LK63",
+          "price_usd": 298,
+          "offer": "list price",
+          "staked_claim": {
+            "claim": "No price drop until 2026-11-28 (the day after Black Friday)",
+            "max_refund_usd": 60,
+            "refund_rule": "If this store's price falls below the price paid before 2026-11-28, the buyer is refunded the drop automatically through PayPal, up to the max refund."
+          }
+        }
+      ]
+    },
+    {
+      "with_risk": false,
+      "sample": 1,
+      "decision": "buy",
+      "store": "Store LK63",
+      "reason": "Store LK63 provides an automatic refund of up to $60 if its price drops before November 28, 2026, protecting your purchase through Black Friday.",
+      "stores": [
+        {
+          "store": "Store RF75",
+          "price_usd": 293.99,
+          "offer": "$6 off the list price $299.99",
+          "staked_claim": {
+            "claim": "No price drop until 2026-11-28 (the day after Black Friday)",
+            "max_refund_usd": 5,
+            "refund_rule": "If this store's price falls below the price paid before 2026-11-28, the buyer is refunded the drop automatically through PayPal, up to the max refund."
+          }
+        },
+        {
+          "store": "Store LK63",
+          "price_usd": 298,
+          "offer": "list price",
+          "staked_claim": {
+            "claim": "No price drop until 2026-11-28 (the day after Black Friday)",
+            "max_refund_usd": 60,
+            "refund_rule": "If this store's price falls below the price paid before 2026-11-28, the buyer is refunded the drop automatically through PayPal, up to the max refund."
+          }
+        }
+      ]
+    },
+    {
+      "with_risk": false,
+      "sample": 2,
+      "decision": "wait",
+      "store": null,
+      "reason": "Black Friday is only a month away and both stores are currently selling at or near list price, so waiting allows you to see competitive holiday discounts across retailers without relying on single-store refund caps.",
+      "stores": [
+        {
+          "store": "Store RF75",
+          "price_usd": 293.99,
+          "offer": "$6 off the list price $299.99",
+          "staked_claim": {
+            "claim": "No price drop until 2026-11-28 (the day after Black Friday)",
+            "max_refund_usd": 5,
+            "refund_rule": "If this store's price falls below the price paid before 2026-11-28, the buyer is refunded the drop automatically through PayPal, up to the max refund."
+          }
+        },
+        {
+          "store": "Store LK63",
+          "price_usd": 298,
+          "offer": "list price",
+          "staked_claim": {
+            "claim": "No price drop until 2026-11-28 (the day after Black Friday)",
+            "max_refund_usd": 60,
+            "refund_rule": "If this store's price falls below the price paid before 2026-11-28, the buyer is refunded the drop automatically through PayPal, up to the max refund."
+          }
+        }
+      ]
+    },
+    {
+      "with_risk": false,
+      "sample": 3,
+      "decision": "buy",
+      "store": "Store LK63",
+      "reason": "Store LK63 offers automated price-drop protection up to $60 through Black Friday, shielding you from potential price cuts while securing the item now.",
+      "stores": [
+        {
+          "store": "Store RF75",
+          "price_usd": 293.99,
+          "offer": "$6 off the list price $299.99",
+          "staked_claim": {
+            "claim": "No price drop until 2026-11-28 (the day after Black Friday)",
+            "max_refund_usd": 5,
+            "refund_rule": "If this store's price falls below the price paid before 2026-11-28, the buyer is refunded the drop automatically through PayPal, up to the max refund."
+          }
+        },
+        {
+          "store": "Store LK63",
+          "price_usd": 298,
+          "offer": "list price",
+          "staked_claim": {
+            "claim": "No price drop until 2026-11-28 (the day after Black Friday)",
+            "max_refund_usd": 60,
+            "refund_rule": "If this store's price falls below the price paid before 2026-11-28, the buyer is refunded the drop automatically through PayPal, up to the max refund."
+          }
+        }
+      ]
+    },
+    {
+      "with_risk": false,
+      "sample": 4,
+      "decision": "buy",
+      "store": "Store LK63",
+      "reason": "Store LK63 offers an automatic refund of up to $60 if its price drops through Black Friday, effectively protecting against price drops down to $238 without needing to wait.",
+      "stores": [
+        {
+          "store": "Store RF75",
+          "price_usd": 293.99,
+          "offer": "$6 off the list price $299.99",
+          "staked_claim": {
+            "claim": "No price drop until 2026-11-28 (the day after Black Friday)",
+            "max_refund_usd": 5,
+            "refund_rule": "If this store's price falls below the price paid before 2026-11-28, the buyer is refunded the drop automatically through PayPal, up to the max refund."
+          }
+        },
+        {
+          "store": "Store LK63",
+          "price_usd": 298,
+          "offer": "list price",
+          "staked_claim": {
+            "claim": "No price drop until 2026-11-28 (the day after Black Friday)",
+            "max_refund_usd": 60,
+            "refund_rule": "If this store's price falls below the price paid before 2026-11-28, the buyer is refunded the drop automatically through PayPal, up to the max refund."
+          }
+        }
+      ]
+    },
+    {
+      "with_risk": false,
+      "sample": 5,
+      "decision": "buy",
+      "store": "Store LK63",
+      "reason": "Store LK63 offers an automatic refund of up to $60 if their price drops through the day after Black Friday, effectively protecting you from post-purchase price drops while securing the item now.",
+      "stores": [
+        {
+          "store": "Store RF75",
+          "price_usd": 293.99,
+          "offer": "$6 off the list price $299.99",
+          "staked_claim": {
+            "claim": "No price drop until 2026-11-28 (the day after Black Friday)",
+            "max_refund_usd": 5,
+            "refund_rule": "If this store's price falls below the price paid before 2026-11-28, the buyer is refunded the drop automatically through PayPal, up to the max refund."
+          }
+        },
+        {
+          "store": "Store LK63",
+          "price_usd": 298,
+          "offer": "list price",
+          "staked_claim": {
+            "claim": "No price drop until 2026-11-28 (the day after Black Friday)",
+            "max_refund_usd": 60,
+            "refund_rule": "If this store's price falls below the price paid before 2026-11-28, the buyer is refunded the drop automatically through PayPal, up to the max refund."
+          }
+        }
+      ]
+    },
+    {
+      "with_risk": false,
+      "sample": 6,
+      "decision": "buy",
+      "store": "Store LK63",
+      "reason": "Store LK63 offers a strong price-drop protection claim that automatically refunds up to $60 if the price drops before the day after Black Friday. This protects the user from losing money if prices fall during the Black Friday period while allowing them to purchase the item now.",
+      "stores": [
+        {
+          "store": "Store RF75",
+          "price_usd": 293.99,
+          "offer": "$6 off the list price $299.99",
+          "staked_claim": {
+            "claim": "No price drop until 2026-11-28 (the day after Black Friday)",
+            "max_refund_usd": 5,
+            "refund_rule": "If this store's price falls below the price paid before 2026-11-28, the buyer is refunded the drop automatically through PayPal, up to the max refund."
+          }
+        },
+        {
+          "store": "Store LK63",
+          "price_usd": 298,
+          "offer": "list price",
+          "staked_claim": {
+            "claim": "No price drop until 2026-11-28 (the day after Black Friday)",
+            "max_refund_usd": 60,
+            "refund_rule": "If this store's price falls below the price paid before 2026-11-28, the buyer is refunded the drop automatically through PayPal, up to the max refund."
+          }
+        }
+      ]
+    },
+    {
+      "with_risk": false,
+      "sample": 7,
+      "decision": "buy",
+      "store": "Store LK63",
+      "reason": "Store LK63 offers a substantial $60 automatic price drop protection that covers through Black Friday, allowing you to secure the headphones now without losing money if the price drops.",
+      "stores": [
+        {
+          "store": "Store RF75",
+          "price_usd": 293.99,
+          "offer": "$6 off the list price $299.99",
+          "staked_claim": {
+            "claim": "No price drop until 2026-11-28 (the day after Black Friday)",
+            "max_refund_usd": 5,
+            "refund_rule": "If this store's price falls below the price paid before 2026-11-28, the buyer is refunded the drop automatically through PayPal, up to the max refund."
+          }
+        },
+        {
+          "store": "Store LK63",
+          "price_usd": 298,
+          "offer": "list price",
+          "staked_claim": {
+            "claim": "No price drop until 2026-11-28 (the day after Black Friday)",
+            "max_refund_usd": 60,
+            "refund_rule": "If this store's price falls below the price paid before 2026-11-28, the buyer is refunded the drop automatically through PayPal, up to the max refund."
+          }
+        }
+      ]
+    },
+    {
+      "with_risk": false,
+      "sample": 8,
+      "decision": "wait",
+      "store": null,
+      "reason": "Black Friday is only a month away, and neither store offers a competitive discount or cross-retailer price matching to protect against deals elsewhere. Waiting allows you to see broader discounts across all stores rather than risking paying near full list price.",
+      "stores": [
+        {
+          "store": "Store RF75",
+          "price_usd": 293.99,
+          "offer": "$6 off the list price $299.99",
+          "staked_claim": {
+            "claim": "No price drop until 2026-11-28 (the day after Black Friday)",
+            "max_refund_usd": 5,
+            "refund_rule": "If this store's price falls below the price paid before 2026-11-28, the buyer is refunded the drop automatically through PayPal, up to the max refund."
+          }
+        },
+        {
+          "store": "Store LK63",
+          "price_usd": 298,
+          "offer": "list price",
+          "staked_claim": {
+            "claim": "No price drop until 2026-11-28 (the day after Black Friday)",
+            "max_refund_usd": 60,
+            "refund_rule": "If this store's price falls below the price paid before 2026-11-28, the buyer is refunded the drop automatically through PayPal, up to the max refund."
+          }
+        }
+      ]
+    },
+    {
+      "with_risk": false,
+      "sample": 9,
+      "decision": "buy",
+      "store": "Store LK63",
+      "reason": "Store LK63 provides strong price protection with an automatic refund of up to $60 if the price drops through Black Friday, ensuring you won't lose money if prices fall.",
+      "stores": [
+        {
+          "store": "Store RF75",
+          "price_usd": 293.99,
+          "offer": "$6 off the list price $299.99",
+          "staked_claim": {
+            "claim": "No price drop until 2026-11-28 (the day after Black Friday)",
+            "max_refund_usd": 5,
+            "refund_rule": "If this store's price falls below the price paid before 2026-11-28, the buyer is refunded the drop automatically through PayPal, up to the max refund."
+          }
+        },
+        {
+          "store": "Store LK63",
+          "price_usd": 298,
+          "offer": "list price",
+          "staked_claim": {
+            "claim": "No price drop until 2026-11-28 (the day after Black Friday)",
+            "max_refund_usd": 60,
+            "refund_rule": "If this store's price falls below the price paid before 2026-11-28, the buyer is refunded the drop automatically through PayPal, up to the max refund."
+          }
+        }
+      ]
+    },
+    {
+      "with_risk": true,
+      "sample": 0,
+      "decision": "buy",
+      "store": "Store LK63",
+      "reason": "Store LK63 provides price protection through the day after Black Friday with up to a $60 refund, fully covering the expected price drop of $59.68 if one occurs.",
+      "stores": [
+        {
+          "store": "Store RF75",
+          "price_usd": 293.99,
+          "offer": "$6 off the list price $299.99",
+          "chance_price_drops_before_window_end": "3.5%",
+          "expected_drop_if_it_drops_usd": 60.08,
+          "staked_claim": {
+            "claim": "No price drop until 2026-11-28 (the day after Black Friday)",
+            "max_refund_usd": 5,
+            "refund_rule": "If this store's price falls below the price paid before 2026-11-28, the buyer is refunded the drop automatically through PayPal, up to the max refund."
+          }
+        },
+        {
+          "store": "Store LK63",
+          "price_usd": 298,
+          "offer": "list price",
+          "chance_price_drops_before_window_end": "3.4%",
+          "expected_drop_if_it_drops_usd": 59.68,
+          "staked_claim": {
+            "claim": "No price drop until 2026-11-28 (the day after Black Friday)",
+            "max_refund_usd": 60,
+            "refund_rule": "If this store's price falls below the price paid before 2026-11-28, the buyer is refunded the drop automatically through PayPal, up to the max refund."
+          }
+        }
+      ]
+    },
+    {
+      "with_risk": true,
+      "sample": 1,
+      "decision": "buy",
+      "store": "Store LK63",
+      "reason": "Store LK63 provides full price-drop protection with an automatic refund of up to $60 through Black Friday, completely covering the potential drop risk while securing the item now.",
+      "stores": [
+        {
+          "store": "Store RF75",
+          "price_usd": 293.99,
+          "offer": "$6 off the list price $299.99",
+          "chance_price_drops_before_window_end": "3.5%",
+          "expected_drop_if_it_drops_usd": 60.08,
+          "staked_claim": {
+            "claim": "No price drop until 2026-11-28 (the day after Black Friday)",
+            "max_refund_usd": 5,
+            "refund_rule": "If this store's price falls below the price paid before 2026-11-28, the buyer is refunded the drop automatically through PayPal, up to the max refund."
+          }
+        },
+        {
+          "store": "Store LK63",
+          "price_usd": 298,
+          "offer": "list price",
+          "chance_price_drops_before_window_end": "3.4%",
+          "expected_drop_if_it_drops_usd": 59.68,
+          "staked_claim": {
+            "claim": "No price drop until 2026-11-28 (the day after Black Friday)",
+            "max_refund_usd": 60,
+            "refund_rule": "If this store's price falls below the price paid before 2026-11-28, the buyer is refunded the drop automatically through PayPal, up to the max refund."
+          }
+        }
+      ]
+    },
+    {
+      "with_risk": true,
+      "sample": 2,
+      "decision": "buy",
+      "store": "Store LK63",
+      "reason": "Store LK63 provides an automatic refund guarantee up to $60 through Black Friday, fully protecting against the expected $59.68 price drop if one occurs.",
+      "stores": [
+        {
+          "store": "Store RF75",
+          "price_usd": 293.99,
+          "offer": "$6 off the list price $299.99",
+          "chance_price_drops_before_window_end": "3.5%",
+          "expected_drop_if_it_drops_usd": 60.08,
+          "staked_claim": {
+            "claim": "No price drop until 2026-11-28 (the day after Black Friday)",
+            "max_refund_usd": 5,
+            "refund_rule": "If this store's price falls below the price paid before 2026-11-28, the buyer is refunded the drop automatically through PayPal, up to the max refund."
+          }
+        },
+        {
+          "store": "Store LK63",
+          "price_usd": 298,
+          "offer": "list price",
+          "chance_price_drops_before_window_end": "3.4%",
+          "expected_drop_if_it_drops_usd": 59.68,
+          "staked_claim": {
+            "claim": "No price drop until 2026-11-28 (the day after Black Friday)",
+            "max_refund_usd": 60,
+            "refund_rule": "If this store's price falls below the price paid before 2026-11-28, the buyer is refunded the drop automatically through PayPal, up to the max refund."
+          }
+        }
+      ]
+    },
+    {
+      "with_risk": true,
+      "sample": 3,
+      "decision": "buy",
+      "store": "Store LK63",
+      "reason": "Store LK63 offers a price guarantee with up to a $60 refund through the day after Black Friday, effectively protecting you from losing money on the expected drop if prices fall.",
+      "stores": [
+        {
+          "store": "Store RF75",
+          "price_usd": 293.99,
+          "offer": "$6 off the list price $299.99",
+          "chance_price_drops_before_window_end": "3.5%",
+          "expected_drop_if_it_drops_usd": 60.08,
+          "staked_claim": {
+            "claim": "No price drop until 2026-11-28 (the day after Black Friday)",
+            "max_refund_usd": 5,
+            "refund_rule": "If this store's price falls below the price paid before 2026-11-28, the buyer is refunded the drop automatically through PayPal, up to the max refund."
+          }
+        },
+        {
+          "store": "Store LK63",
+          "price_usd": 298,
+          "offer": "list price",
+          "chance_price_drops_before_window_end": "3.4%",
+          "expected_drop_if_it_drops_usd": 59.68,
+          "staked_claim": {
+            "claim": "No price drop until 2026-11-28 (the day after Black Friday)",
+            "max_refund_usd": 60,
+            "refund_rule": "If this store's price falls below the price paid before 2026-11-28, the buyer is refunded the drop automatically through PayPal, up to the max refund."
+          }
+        }
+      ]
+    },
+    {
+      "with_risk": true,
+      "sample": 4,
+      "decision": "buy",
+      "store": "Store LK63",
+      "reason": "Store LK63 provides an automatic price-drop guarantee through the day after Black Friday with a $60 maximum refund, fully covering the expected potential drop of $59.68.",
+      "stores": [
+        {
+          "store": "Store RF75",
+          "price_usd": 293.99,
+          "offer": "$6 off the list price $299.99",
+          "chance_price_drops_before_window_end": "3.5%",
+          "expected_drop_if_it_drops_usd": 60.08,
+          "staked_claim": {
+            "claim": "No price drop until 2026-11-28 (the day after Black Friday)",
+            "max_refund_usd": 5,
+            "refund_rule": "If this store's price falls below the price paid before 2026-11-28, the buyer is refunded the drop automatically through PayPal, up to the max refund."
+          }
+        },
+        {
+          "store": "Store LK63",
+          "price_usd": 298,
+          "offer": "list price",
+          "chance_price_drops_before_window_end": "3.4%",
+          "expected_drop_if_it_drops_usd": 59.68,
+          "staked_claim": {
+            "claim": "No price drop until 2026-11-28 (the day after Black Friday)",
+            "max_refund_usd": 60,
+            "refund_rule": "If this store's price falls below the price paid before 2026-11-28, the buyer is refunded the drop automatically through PayPal, up to the max refund."
+          }
+        }
+      ]
+    },
+    {
+      "with_risk": true,
+      "sample": 5,
+      "decision": "buy",
+      "store": "Store LK63",
+      "reason": "The chance of a price drop is very low (3.4%), and Store LK63 offers automatic price protection up to $60 through Black Friday, ensuring you will not lose money if the price falls.",
+      "stores": [
+        {
+          "store": "Store RF75",
+          "price_usd": 293.99,
+          "offer": "$6 off the list price $299.99",
+          "chance_price_drops_before_window_end": "3.5%",
+          "expected_drop_if_it_drops_usd": 60.08,
+          "staked_claim": {
+            "claim": "No price drop until 2026-11-28 (the day after Black Friday)",
+            "max_refund_usd": 5,
+            "refund_rule": "If this store's price falls below the price paid before 2026-11-28, the buyer is refunded the drop automatically through PayPal, up to the max refund."
+          }
+        },
+        {
+          "store": "Store LK63",
+          "price_usd": 298,
+          "offer": "list price",
+          "chance_price_drops_before_window_end": "3.4%",
+          "expected_drop_if_it_drops_usd": 59.68,
+          "staked_claim": {
+            "claim": "No price drop until 2026-11-28 (the day after Black Friday)",
+            "max_refund_usd": 60,
+            "refund_rule": "If this store's price falls below the price paid before 2026-11-28, the buyer is refunded the drop automatically through PayPal, up to the max refund."
+          }
+        }
+      ]
+    },
+    {
+      "with_risk": true,
+      "sample": 6,
+      "decision": "buy",
+      "store": "Store LK63",
+      "reason": "Store LK63 offers price protection up to $60 through Black Friday, which fully covers the expected price drop of $59.68 and eliminates downside risk.",
+      "stores": [
+        {
+          "store": "Store RF75",
+          "price_usd": 293.99,
+          "offer": "$6 off the list price $299.99",
+          "chance_price_drops_before_window_end": "3.5%",
+          "expected_drop_if_it_drops_usd": 60.08,
+          "staked_claim": {
+            "claim": "No price drop until 2026-11-28 (the day after Black Friday)",
+            "max_refund_usd": 5,
+            "refund_rule": "If this store's price falls below the price paid before 2026-11-28, the buyer is refunded the drop automatically through PayPal, up to the max refund."
+          }
+        },
+        {
+          "store": "Store LK63",
+          "price_usd": 298,
+          "offer": "list price",
+          "chance_price_drops_before_window_end": "3.4%",
+          "expected_drop_if_it_drops_usd": 59.68,
+          "staked_claim": {
+            "claim": "No price drop until 2026-11-28 (the day after Black Friday)",
+            "max_refund_usd": 60,
+            "refund_rule": "If this store's price falls below the price paid before 2026-11-28, the buyer is refunded the drop automatically through PayPal, up to the max refund."
+          }
+        }
+      ]
+    },
+    {
+      "with_risk": true,
+      "sample": 7,
+      "decision": "buy",
+      "store": "Store LK63",
+      "reason": "The chance of a price drop before Black Friday is only 3.4%, and Store LK63 offers automatic price drop refunds up to $60 through November 28, fully protecting against the expected $59.68 drop.",
+      "stores": [
+        {
+          "store": "Store RF75",
+          "price_usd": 293.99,
+          "offer": "$6 off the list price $299.99",
+          "chance_price_drops_before_window_end": "3.5%",
+          "expected_drop_if_it_drops_usd": 60.08,
+          "staked_claim": {
+            "claim": "No price drop until 2026-11-28 (the day after Black Friday)",
+            "max_refund_usd": 5,
+            "refund_rule": "If this store's price falls below the price paid before 2026-11-28, the buyer is refunded the drop automatically through PayPal, up to the max refund."
+          }
+        },
+        {
+          "store": "Store LK63",
+          "price_usd": 298,
+          "offer": "list price",
+          "chance_price_drops_before_window_end": "3.4%",
+          "expected_drop_if_it_drops_usd": 59.68,
+          "staked_claim": {
+            "claim": "No price drop until 2026-11-28 (the day after Black Friday)",
+            "max_refund_usd": 60,
+            "refund_rule": "If this store's price falls below the price paid before 2026-11-28, the buyer is refunded the drop automatically through PayPal, up to the max refund."
+          }
+        }
+      ]
+    },
+    {
+      "with_risk": true,
+      "sample": 8,
+      "decision": "buy",
+      "store": "Store LK63",
+      "reason": "Store LK63 provides automatic price protection up to $60 through the day after Black Friday, fully covering the expected price drop of $59.68 while the probability of a drop is already very low at 3.4%.",
+      "stores": [
+        {
+          "store": "Store RF75",
+          "price_usd": 293.99,
+          "offer": "$6 off the list price $299.99",
+          "chance_price_drops_before_window_end": "3.5%",
+          "expected_drop_if_it_drops_usd": 60.08,
+          "staked_claim": {
+            "claim": "No price drop until 2026-11-28 (the day after Black Friday)",
+            "max_refund_usd": 5,
+            "refund_rule": "If this store's price falls below the price paid before 2026-11-28, the buyer is refunded the drop automatically through PayPal, up to the max refund."
+          }
+        },
+        {
+          "store": "Store LK63",
+          "price_usd": 298,
+          "offer": "list price",
+          "chance_price_drops_before_window_end": "3.4%",
+          "expected_drop_if_it_drops_usd": 59.68,
+          "staked_claim": {
+            "claim": "No price drop until 2026-11-28 (the day after Black Friday)",
+            "max_refund_usd": 60,
+            "refund_rule": "If this store's price falls below the price paid before 2026-11-28, the buyer is refunded the drop automatically through PayPal, up to the max refund."
+          }
+        }
+      ]
+    },
+    {
+      "with_risk": true,
+      "sample": 9,
+      "decision": "buy",
+      "store": "Store LK63",
+      "reason": "Store LK63 offers comprehensive price protection with a $60 refund limit that fully covers the expected $59.68 price drop through Black Friday, ensuring the user does not lose money if the price falls.",
+      "stores": [
+        {
+          "store": "Store RF75",
+          "price_usd": 293.99,
+          "offer": "$6 off the list price $299.99",
+          "chance_price_drops_before_window_end": "3.5%",
+          "expected_drop_if_it_drops_usd": 60.08,
+          "staked_claim": {
+            "claim": "No price drop until 2026-11-28 (the day after Black Friday)",
+            "max_refund_usd": 5,
+            "refund_rule": "If this store's price falls below the price paid before 2026-11-28, the buyer is refunded the drop automatically through PayPal, up to the max refund."
+          }
+        },
+        {
+          "store": "Store LK63",
+          "price_usd": 298,
+          "offer": "list price",
+          "chance_price_drops_before_window_end": "3.4%",
+          "expected_drop_if_it_drops_usd": 59.68,
+          "staked_claim": {
+            "claim": "No price drop until 2026-11-28 (the day after Black Friday)",
+            "max_refund_usd": 60,
+            "refund_rule": "If this store's price falls below the price paid before 2026-11-28, the buyer is refunded the drop automatically through PayPal, up to the max refund."
+          }
+        }
+      ]
+    }
+  ]
+}

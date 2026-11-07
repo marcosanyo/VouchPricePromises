@@ -1,0 +1,40 @@
+# Secrets (never commit)
+.env
+.env.*
+!.env.example
+hackathon-*.json
+*service-account*.json
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Node
+node_modules/
+dist/
+build/
+coverage/
+*.log
+
+# Python (ML)
+__pycache__/
+.venv/
+*.pyc
+
+# Local data dumps
+data/raw/
+
+# Generated explanatory images
+.visuals/
+
+# Local store (Channel3 payloads, contracts). The live database is never
+# committed; data/snapshot/vouch.db (npm -w server run snapshot) is, so other
+# sessions can restore it. Keep data/ out of the public (orphan) repository.
+data/*.db
+data/*.db-*
+data/ml/
+ml/.venv/
+
+# Claude Code worktrees and local settings
+.claude/

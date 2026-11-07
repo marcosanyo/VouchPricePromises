@@ -1,0 +1,11 @@
+[project]
+name = "vouch-ap2-interop"
+version = "0.1.0"
+description = "Cross-checks Vouch's TypeScript AP2 mandates with the official AP2 Python SDK"
+requires-python = ">=3.11"
+dependencies = [
+    "ap2 @ git+https://github.com/google-agentic-commerce/AP2@e1ea56d",
+]
+
+[tool.uv]
+package = false

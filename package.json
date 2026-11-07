@@ -1,0 +1,20 @@
+{
+  "name": "vouch",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "server",
+    "web"
+  ],
+  "scripts": {
+    "dev": "trap 'kill 0' INT TERM EXIT; npm -w web run build -- --watch & npm -w server run dev",
+    "dev:server": "npm -w server run dev",
+    "dev:web": "npm -w web run dev",
+    "test": "npm -w server test",
+    "typecheck": "npm -w server run typecheck && npm -w web run typecheck",
+    "build": "npm -w web run build",
+    "start": "npm -w server run start",
+    "collect": "npm -w server run collect"
+  },
+  "license": "Apache-2.0"
+}

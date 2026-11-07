@@ -1,0 +1,70 @@
+{
+  "run_at": "2026-10-30T06:02:44.694Z",
+  "window_days": 14,
+  "groups": 42,
+  "data_days": {
+    "from": "2026-09-26",
+    "to": "2026-10-30"
+  },
+  "note": "Real Channel3 daily prices, ordinary period (no Black Friday in the data). A store that plans a markdown inside the window pays in full; these averages do not apply to it.",
+  "cheapest_store": {
+    "store_days": 808,
+    "own_drop": {
+      "rate": 0.13,
+      "size_when_hit": 0.1488,
+      "expected_payout": 0.0193
+    },
+    "price_match": {
+      "rate": 0.3082,
+      "size_when_hit": 0.1603,
+      "expected_payout": 0.0494
+    },
+    "capped": [
+      {
+        "cap": 0.03,
+        "own_drop": 0.0036,
+        "price_match": 0.0089
+      },
+      {
+        "cap": 0.05,
+        "own_drop": 0.006,
+        "price_match": 0.0145
+      },
+      {
+        "cap": 0.1,
+        "own_drop": 0.0115,
+        "price_match": 0.0275
+      }
+    ]
+  },
+  "all_stores": {
+    "store_days": 1666,
+    "own_drop": {
+      "rate": 0.1765,
+      "size_when_hit": 0.1515,
+      "expected_payout": 0.0267
+    },
+    "price_match": {
+      "rate": 0.6615,
+      "size_when_hit": 0.2187,
+      "expected_payout": 0.1446
+    },
+    "capped": [
+      {
+        "cap": 0.03,
+        "own_drop": 0.0048,
+        "price_match": 0.0187
+      },
+      {
+        "cap": 0.05,
+        "own_drop": 0.0078,
+        "price_match": 0.0304
+      },
+      {
+        "cap": 0.1,
+        "own_drop": 0.0146,
+        "price_match": 0.0577
+      }
+    ]
+  }
+}

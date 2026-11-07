@@ -1,0 +1,46 @@
+{
+  "name": "@vouch/server",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "node --env-file=../.env --watch src/server.ts",
+    "start": "node --env-file=../.env src/server.ts",
+    "collect": "node --env-file=../.env src/jobs/collect.ts",
+    "mcp": "node --env-file=../.env src/mcp.ts",
+    "test": "node --test test/*.test.ts",
+    "typecheck": "tsc -p tsconfig.json",
+    "models": "node --env-file=../.env src/jobs/models.ts",
+    "dataset": "node --env-file=../.env src/jobs/dataset.ts",
+    "daily": "node --env-file=../.env src/jobs/collect.ts daily",
+    "live-batch": "node --env-file=../.env src/jobs/live-batch.ts",
+    "predict": "node --env-file=../.env src/jobs/collect.ts predict",
+    "agent-experiment": "node --env-file=../.env src/jobs/agent-experiment.ts",
+    "sellers": "node --env-file=../.env src/jobs/sellers.ts",
+    "snapshot": "node --env-file=../.env src/jobs/snapshot.ts",
+    "snapshot:restore": "node --env-file=../.env src/jobs/snapshot.ts restore",
+    "agent-wait-experiment": "node --env-file=../.env src/jobs/agent-wait-experiment.ts",
+    "agent-shop-check": "node --env-file=../.env src/jobs/agent-shop-check.ts",
+    "price-match-cost": "node --env-file=../.env src/jobs/price-match-cost.ts",
+    "acts-experiment": "node --env-file=../.env src/jobs/acts-experiment.ts"
+  },
+  "dependencies": {
+    "@google/genai": "^2.31.0",
+    "@hono/node-server": "^1.19.17",
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "@paypal/agent-toolkit": "1.11.0",
+    "ajv": "8.17.1",
+    "ajv-formats": "3.0.1",
+    "google-auth-library": "10.9.1",
+    "hono": "^4.13.14",
+    "jose": "5.9.6",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2"
+  },
+  "license": "Apache-2.0"
+}

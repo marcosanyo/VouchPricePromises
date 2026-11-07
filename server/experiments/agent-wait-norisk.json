@@ -1,0 +1,1713 @@
+{
+  "model": "gemini-3.8-flash",
+  "run_at": "2026-10-28T10:23:44.077Z",
+  "design": {
+    "products": 10,
+    "samples_per_cell": 3,
+    "temperature": 1,
+    "today": "2026-10-28",
+    "window_end": "2026-11-28",
+    "window_days": 31,
+    "promise": "cheapest store: no price drop until the day after Black Friday",
+    "levels": {
+      "none": "no promise",
+      "low": "$10",
+      "cover": "stake = expected drop over the window (rounded up)"
+    },
+    "view": "prices, Black Friday date and the promise only (no probabilities, expected drops or track records), shuffled",
+    "risk": "dropRisk() over the window (the same estimate the demo shop uses)"
+  },
+  "invalid_picks": 0,
+  "results": {
+    "none": {
+      "n": 30,
+      "buy_now": 1,
+      "buy_now_rate": 0.03,
+      "bought_target": 1,
+      "mean_extra_over_best_usd": 0
+    },
+    "cover": {
+      "n": 30,
+      "buy_now": 30,
+      "buy_now_rate": 1,
+      "bought_target": 30,
+      "mean_extra_over_best_usd": 0
+    }
+  },
+  "products": [
+    {
+      "product": "Over-Ear Headphones · #P51",
+      "stores": 6,
+      "cheapest_price_usd": 298,
+      "target_p_drop": 0.03,
+      "target_expected_drop_usd": 59.68
+    },
+    {
+      "product": "Mice & Trackballs · #Z90",
+      "stores": 2,
+      "cheapest_price_usd": 119.99,
+      "target_p_drop": 0.01,
+      "target_expected_drop_usd": 24.03
+    },
+    {
+      "product": "Sandals · #M73",
+      "stores": 5,
+      "cheapest_price_usd": 33,
+      "target_p_drop": 0,
+      "target_expected_drop_usd": 6.61
+    },
+    {
+      "product": "Over-Ear Headphones · #Y28",
+      "stores": 3,
+      "cheapest_price_usd": 219.99,
+      "target_p_drop": 0.01,
+      "target_expected_drop_usd": 44.06
+    },
+    {
+      "product": "Water Bottles · #H46",
+      "stores": 4,
+      "cheapest_price_usd": 44.95,
+      "target_p_drop": 0.01,
+      "target_expected_drop_usd": 9
+    },
+    {
+      "product": "Video Game Console Accessories · #D15",
+      "stores": 3,
+      "cheapest_price_usd": 349.99,
+      "target_p_drop": 0.1,
+      "target_expected_drop_usd": 70.09
+    },
+    {
+      "product": "Portable Bluetooth Speakers · #L53",
+      "stores": 2,
+      "cheapest_price_usd": 89.95,
+      "target_p_drop": 0.01,
+      "target_expected_drop_usd": 18.01
+    },
+    {
+      "product": "Portable Bluetooth Speakers · #N46",
+      "stores": 5,
+      "cheapest_price_usd": 149.95,
+      "target_p_drop": 0,
+      "target_expected_drop_usd": 30.03
+    },
+    {
+      "product": "Mirrorless Digital Cameras · #R84",
+      "stores": 4,
+      "cheapest_price_usd": 679,
+      "target_p_drop": 0.02,
+      "target_expected_drop_usd": 135.98
+    },
+    {
+      "product": "Sneakers · #Q33",
+      "stores": 3,
+      "cheapest_price_usd": 85,
+      "target_p_drop": 0.09,
+      "target_expected_drop_usd": 17.02
+    }
+  ],
+  "runs": [
+    {
+      "product": "Over-Ear Headphones · #P51",
+      "level": "none",
+      "stake_usd": 0,
+      "sample": 0,
+      "decision": "wait",
+      "pick": null,
+      "valid": true,
+      "bought_target": false,
+      "reason": "Black Friday is only 30 days away and none of the stores offer a price-drop guarantee or price match. Waiting offers a high likelihood of finding a better discount on headphones during upcoming sales.",
+      "target": "Store LK63",
+      "effective_costs_usd": {
+        "Store LK63": 300.03,
+        "Store RF75": 302.08,
+        "Store GL36": 301.9,
+        "Store BU55": 320.69,
+        "Store PC10": 322.3,
+        "Store AV21": 400.86
+      },
+      "best_effective": {
+        "store": "Store LK63",
+        "cost_usd": 300.03
+      },
+      "pick_effective_cost_usd": null,
+      "extra_over_best_usd": null,
+      "target_p_drop": 0.03,
+      "target_expected_drop_usd": 59.68,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Over-Ear Headphones · #P51",
+      "level": "none",
+      "stake_usd": 0,
+      "sample": 1,
+      "decision": "wait",
+      "pick": null,
+      "valid": true,
+      "bought_target": false,
+      "reason": "With Black Friday only 30 days away and no stores offering price-drop guarantees, waiting is likely to yield better discounts on these headphones.",
+      "target": "Store LK63",
+      "effective_costs_usd": {
+        "Store LK63": 300.03,
+        "Store RF75": 302.08,
+        "Store GL36": 301.9,
+        "Store BU55": 320.69,
+        "Store PC10": 322.3,
+        "Store AV21": 400.86
+      },
+      "best_effective": {
+        "store": "Store LK63",
+        "cost_usd": 300.03
+      },
+      "pick_effective_cost_usd": null,
+      "extra_over_best_usd": null,
+      "target_p_drop": 0.03,
+      "target_expected_drop_usd": 59.68,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Over-Ear Headphones · #P51",
+      "level": "none",
+      "stake_usd": 0,
+      "sample": 2,
+      "decision": "wait",
+      "pick": null,
+      "valid": true,
+      "bought_target": false,
+      "reason": "Black Friday is only 30 days away and none of the stores offer a price guarantee against future discounts. Waiting provides a strong chance of finding deeper sales on headphones without risking a post-purchase price drop.",
+      "target": "Store LK63",
+      "effective_costs_usd": {
+        "Store LK63": 300.03,
+        "Store RF75": 302.08,
+        "Store GL36": 301.9,
+        "Store BU55": 320.69,
+        "Store PC10": 322.3,
+        "Store AV21": 400.86
+      },
+      "best_effective": {
+        "store": "Store LK63",
+        "cost_usd": 300.03
+      },
+      "pick_effective_cost_usd": null,
+      "extra_over_best_usd": null,
+      "target_p_drop": 0.03,
+      "target_expected_drop_usd": 59.68,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Over-Ear Headphones · #P51",
+      "level": "cover",
+      "stake_usd": 60,
+      "sample": 0,
+      "decision": "buy",
+      "pick": "Store LK63",
+      "valid": true,
+      "bought_target": true,
+      "reason": "Store LK63 currently has the lowest price at $298 and includes a price guarantee that automatically refunds drops up to $60 through the day after Black Friday.",
+      "target": "Store LK63",
+      "effective_costs_usd": {
+        "Store LK63": 298,
+        "Store RF75": 302.08,
+        "Store GL36": 301.9,
+        "Store BU55": 320.69,
+        "Store PC10": 322.3,
+        "Store AV21": 400.86
+      },
+      "best_effective": {
+        "store": "Store LK63",
+        "cost_usd": 298
+      },
+      "pick_effective_cost_usd": 298,
+      "extra_over_best_usd": 0,
+      "target_p_drop": 0.03,
+      "target_expected_drop_usd": 59.68,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Over-Ear Headphones · #P51",
+      "level": "cover",
+      "stake_usd": 60,
+      "sample": 1,
+      "decision": "buy",
+      "pick": "Store LK63",
+      "valid": true,
+      "bought_target": true,
+      "reason": "Store LK63 currently offers the lowest price at $298 and includes price protection up to $60 through Black Friday, shielding you from potential price drops.",
+      "target": "Store LK63",
+      "effective_costs_usd": {
+        "Store LK63": 298,
+        "Store RF75": 302.08,
+        "Store GL36": 301.9,
+        "Store BU55": 320.69,
+        "Store PC10": 322.3,
+        "Store AV21": 400.86
+      },
+      "best_effective": {
+        "store": "Store LK63",
+        "cost_usd": 298
+      },
+      "pick_effective_cost_usd": 298,
+      "extra_over_best_usd": 0,
+      "target_p_drop": 0.03,
+      "target_expected_drop_usd": 59.68,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Over-Ear Headphones · #P51",
+      "level": "cover",
+      "stake_usd": 60,
+      "sample": 2,
+      "decision": "buy",
+      "pick": "Store LK63",
+      "valid": true,
+      "bought_target": true,
+      "reason": "Store LK63 offers the lowest current price at $298 along with an automatic price-drop protection guarantee of up to $60 through Black Friday. This protects against potential sales while securing the best available deal now.",
+      "target": "Store LK63",
+      "effective_costs_usd": {
+        "Store LK63": 298,
+        "Store RF75": 302.08,
+        "Store GL36": 301.9,
+        "Store BU55": 320.69,
+        "Store PC10": 322.3,
+        "Store AV21": 400.86
+      },
+      "best_effective": {
+        "store": "Store LK63",
+        "cost_usd": 298
+      },
+      "pick_effective_cost_usd": 298,
+      "extra_over_best_usd": 0,
+      "target_p_drop": 0.03,
+      "target_expected_drop_usd": 59.68,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Mice & Trackballs · #Z90",
+      "level": "none",
+      "stake_usd": 0,
+      "sample": 0,
+      "decision": "wait",
+      "pick": null,
+      "valid": true,
+      "bought_target": false,
+      "reason": "Black Friday is only 30 days away and neither store offers price protection guarantees against future markdowns. Waiting gives a strong likelihood of finding a discount on this peripheral during holiday sales.",
+      "target": "Store CA83",
+      "effective_costs_usd": {
+        "Store CA83": 120.29,
+        "Store WL11": 120.19
+      },
+      "best_effective": {
+        "store": "Store WL11",
+        "cost_usd": 120.19
+      },
+      "pick_effective_cost_usd": null,
+      "extra_over_best_usd": null,
+      "target_p_drop": 0.01,
+      "target_expected_drop_usd": 24.03,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Mice & Trackballs · #Z90",
+      "level": "none",
+      "stake_usd": 0,
+      "sample": 1,
+      "decision": "wait",
+      "pick": null,
+      "valid": true,
+      "bought_target": false,
+      "reason": "With Black Friday only 30 days away and neither store offering a discount or price protection guarantee on this $119.99 item, waiting is likely to result in better deals.",
+      "target": "Store CA83",
+      "effective_costs_usd": {
+        "Store CA83": 120.29,
+        "Store WL11": 120.19
+      },
+      "best_effective": {
+        "store": "Store WL11",
+        "cost_usd": 120.19
+      },
+      "pick_effective_cost_usd": null,
+      "extra_over_best_usd": null,
+      "target_p_drop": 0.01,
+      "target_expected_drop_usd": 24.03,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Mice & Trackballs · #Z90",
+      "level": "none",
+      "stake_usd": 0,
+      "sample": 2,
+      "decision": "wait",
+      "pick": null,
+      "valid": true,
+      "bought_target": false,
+      "reason": "Black Friday is only 30 days away and neither store offers price protection or a discounted rate. Waiting could yield significant savings during upcoming holiday promotions.",
+      "target": "Store CA83",
+      "effective_costs_usd": {
+        "Store CA83": 120.29,
+        "Store WL11": 120.19
+      },
+      "best_effective": {
+        "store": "Store WL11",
+        "cost_usd": 120.19
+      },
+      "pick_effective_cost_usd": null,
+      "extra_over_best_usd": null,
+      "target_p_drop": 0.01,
+      "target_expected_drop_usd": 24.03,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Mice & Trackballs · #Z90",
+      "level": "cover",
+      "stake_usd": 25,
+      "sample": 0,
+      "decision": "buy",
+      "pick": "Store CA83",
+      "valid": true,
+      "bought_target": true,
+      "reason": "Store CA83 provides an automatic price protection refund of up to $25 through the day after Black Friday, mitigating the risk of post-purchase price drops.",
+      "target": "Store CA83",
+      "effective_costs_usd": {
+        "Store CA83": 119.99,
+        "Store WL11": 120.19
+      },
+      "best_effective": {
+        "store": "Store CA83",
+        "cost_usd": 119.99
+      },
+      "pick_effective_cost_usd": 119.99,
+      "extra_over_best_usd": 0,
+      "target_p_drop": 0.01,
+      "target_expected_drop_usd": 24.03,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Mice & Trackballs · #Z90",
+      "level": "cover",
+      "stake_usd": 25,
+      "sample": 1,
+      "decision": "buy",
+      "pick": "Store CA83",
+      "valid": true,
+      "bought_target": true,
+      "reason": "Store CA83 offers an automatic price-drop refund protection of up to $25 through the day after Black Friday, allowing you to secure the item now without risking money if the price drops.",
+      "target": "Store CA83",
+      "effective_costs_usd": {
+        "Store CA83": 119.99,
+        "Store WL11": 120.19
+      },
+      "best_effective": {
+        "store": "Store CA83",
+        "cost_usd": 119.99
+      },
+      "pick_effective_cost_usd": 119.99,
+      "extra_over_best_usd": 0,
+      "target_p_drop": 0.01,
+      "target_expected_drop_usd": 24.03,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Mice & Trackballs · #Z90",
+      "level": "cover",
+      "stake_usd": 25,
+      "sample": 2,
+      "decision": "buy",
+      "pick": "Store CA83",
+      "valid": true,
+      "bought_target": true,
+      "reason": "Store CA83 offers a staked claim with automatic price-drop refunds up to $25 through the day after Black Friday, protecting against potential post-purchase price drops.",
+      "target": "Store CA83",
+      "effective_costs_usd": {
+        "Store CA83": 119.99,
+        "Store WL11": 120.19
+      },
+      "best_effective": {
+        "store": "Store CA83",
+        "cost_usd": 119.99
+      },
+      "pick_effective_cost_usd": 119.99,
+      "extra_over_best_usd": 0,
+      "target_p_drop": 0.01,
+      "target_expected_drop_usd": 24.03,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Sandals · #M73",
+      "level": "none",
+      "stake_usd": 0,
+      "sample": 0,
+      "decision": "buy",
+      "pick": "Store HL88",
+      "valid": true,
+      "bought_target": true,
+      "reason": "Store HL88 is offering a substantial discount at $33 compared to the standard $50–$55 price point across other retailers. Given that sandals are likely on end-of-season clearance, buying now secures a great deal before stock runs out.",
+      "target": "Store HL88",
+      "effective_costs_usd": {
+        "Store HL88": 33.03,
+        "Store QE98": 50.29,
+        "Store DL78": 50.33,
+        "Store FK55": 54.44,
+        "Store VT74": 55.4
+      },
+      "best_effective": {
+        "store": "Store HL88",
+        "cost_usd": 33.03
+      },
+      "pick_effective_cost_usd": 33.03,
+      "extra_over_best_usd": 0,
+      "target_p_drop": 0,
+      "target_expected_drop_usd": 6.61,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Sandals · #M73",
+      "level": "none",
+      "stake_usd": 0,
+      "sample": 1,
+      "decision": "wait",
+      "pick": null,
+      "valid": true,
+      "bought_target": false,
+      "reason": "Black Friday is only 30 days away and none of the stores offer a price guarantee, so waiting is safer to see if prices drop further.",
+      "target": "Store HL88",
+      "effective_costs_usd": {
+        "Store HL88": 33.03,
+        "Store QE98": 50.29,
+        "Store DL78": 50.33,
+        "Store FK55": 54.44,
+        "Store VT74": 55.4
+      },
+      "best_effective": {
+        "store": "Store HL88",
+        "cost_usd": 33.03
+      },
+      "pick_effective_cost_usd": null,
+      "extra_over_best_usd": null,
+      "target_p_drop": 0,
+      "target_expected_drop_usd": 6.61,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Sandals · #M73",
+      "level": "none",
+      "stake_usd": 0,
+      "sample": 2,
+      "decision": "wait",
+      "pick": null,
+      "valid": true,
+      "bought_target": false,
+      "reason": "Black Friday is only 30 days away and none of the stores offer a price protection guarantee, so waiting avoids the risk of losing money if prices drop further.",
+      "target": "Store HL88",
+      "effective_costs_usd": {
+        "Store HL88": 33.03,
+        "Store QE98": 50.29,
+        "Store DL78": 50.33,
+        "Store FK55": 54.44,
+        "Store VT74": 55.4
+      },
+      "best_effective": {
+        "store": "Store HL88",
+        "cost_usd": 33.03
+      },
+      "pick_effective_cost_usd": null,
+      "extra_over_best_usd": null,
+      "target_p_drop": 0,
+      "target_expected_drop_usd": 6.61,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Sandals · #M73",
+      "level": "cover",
+      "stake_usd": 7,
+      "sample": 0,
+      "decision": "buy",
+      "pick": "Store HL88",
+      "valid": true,
+      "bought_target": true,
+      "reason": "Store HL88 offers the lowest price by a wide margin at $33, along with a price protection guarantee covering any drops through the day after Black Friday.",
+      "target": "Store HL88",
+      "effective_costs_usd": {
+        "Store HL88": 33,
+        "Store QE98": 50.29,
+        "Store DL78": 50.33,
+        "Store FK55": 54.44,
+        "Store VT74": 55.4
+      },
+      "best_effective": {
+        "store": "Store HL88",
+        "cost_usd": 33
+      },
+      "pick_effective_cost_usd": 33,
+      "extra_over_best_usd": 0,
+      "target_p_drop": 0,
+      "target_expected_drop_usd": 6.61,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Sandals · #M73",
+      "level": "cover",
+      "stake_usd": 7,
+      "sample": 1,
+      "decision": "buy",
+      "pick": "Store HL88",
+      "valid": true,
+      "bought_target": true,
+      "reason": "Store HL88 offers the lowest price by a wide margin at $33, and its price protection policy guarantees a refund of up to $7 if the price drops through Black Friday.",
+      "target": "Store HL88",
+      "effective_costs_usd": {
+        "Store HL88": 33,
+        "Store QE98": 50.29,
+        "Store DL78": 50.33,
+        "Store FK55": 54.44,
+        "Store VT74": 55.4
+      },
+      "best_effective": {
+        "store": "Store HL88",
+        "cost_usd": 33
+      },
+      "pick_effective_cost_usd": 33,
+      "extra_over_best_usd": 0,
+      "target_p_drop": 0,
+      "target_expected_drop_usd": 6.61,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Sandals · #M73",
+      "level": "cover",
+      "stake_usd": 7,
+      "sample": 2,
+      "decision": "buy",
+      "pick": "Store HL88",
+      "valid": true,
+      "bought_target": true,
+      "reason": "Store HL88 offers by far the lowest price at $33, well below competitors' ~$50, and includes automatic price drop protection through Black Friday.",
+      "target": "Store HL88",
+      "effective_costs_usd": {
+        "Store HL88": 33,
+        "Store QE98": 50.29,
+        "Store DL78": 50.33,
+        "Store FK55": 54.44,
+        "Store VT74": 55.4
+      },
+      "best_effective": {
+        "store": "Store HL88",
+        "cost_usd": 33
+      },
+      "pick_effective_cost_usd": 33,
+      "extra_over_best_usd": 0,
+      "target_p_drop": 0,
+      "target_expected_drop_usd": 6.61,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Over-Ear Headphones · #Y28",
+      "level": "none",
+      "stake_usd": 0,
+      "sample": 0,
+      "decision": "wait",
+      "pick": null,
+      "valid": true,
+      "bought_target": false,
+      "reason": "Black Friday is only 30 days away and none of the stores offer a price guarantee or protection against post-purchase drops. Waiting allows you to take advantage of likely discounts on electronics without risking paying too much.",
+      "target": "Store GL36",
+      "effective_costs_usd": {
+        "Store GL36": 220.34,
+        "Store RF75": 230.7,
+        "Store TL63": 302.53
+      },
+      "best_effective": {
+        "store": "Store GL36",
+        "cost_usd": 220.34
+      },
+      "pick_effective_cost_usd": null,
+      "extra_over_best_usd": null,
+      "target_p_drop": 0.01,
+      "target_expected_drop_usd": 44.06,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Over-Ear Headphones · #Y28",
+      "level": "none",
+      "stake_usd": 0,
+      "sample": 1,
+      "decision": "wait",
+      "pick": null,
+      "valid": true,
+      "bought_target": false,
+      "reason": "Black Friday is only 30 days away, and none of the stores offer price protection guarantees. Waiting is likely to yield better discounts on electronics without the risk of an uncompensated price drop.",
+      "target": "Store GL36",
+      "effective_costs_usd": {
+        "Store GL36": 220.34,
+        "Store RF75": 230.7,
+        "Store TL63": 302.53
+      },
+      "best_effective": {
+        "store": "Store GL36",
+        "cost_usd": 220.34
+      },
+      "pick_effective_cost_usd": null,
+      "extra_over_best_usd": null,
+      "target_p_drop": 0.01,
+      "target_expected_drop_usd": 44.06,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Over-Ear Headphones · #Y28",
+      "level": "none",
+      "stake_usd": 0,
+      "sample": 2,
+      "decision": "wait",
+      "pick": null,
+      "valid": true,
+      "bought_target": false,
+      "reason": "Black Friday is only 30 days away, and none of the stores offer price guarantees against upcoming seasonal discounts. Waiting offers a strong likelihood of finding better deals on electronics without risking post-purchase price drops.",
+      "target": "Store GL36",
+      "effective_costs_usd": {
+        "Store GL36": 220.34,
+        "Store RF75": 230.7,
+        "Store TL63": 302.53
+      },
+      "best_effective": {
+        "store": "Store GL36",
+        "cost_usd": 220.34
+      },
+      "pick_effective_cost_usd": null,
+      "extra_over_best_usd": null,
+      "target_p_drop": 0.01,
+      "target_expected_drop_usd": 44.06,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Over-Ear Headphones · #Y28",
+      "level": "cover",
+      "stake_usd": 45,
+      "sample": 0,
+      "decision": "buy",
+      "pick": "Store GL36",
+      "valid": true,
+      "bought_target": true,
+      "reason": "Store GL36 offers the lowest current price of $219.99 along with an automatic price-drop refund of up to $45 through the day after Black Friday, protecting against any post-purchase discounts.",
+      "target": "Store GL36",
+      "effective_costs_usd": {
+        "Store GL36": 219.99,
+        "Store RF75": 230.7,
+        "Store TL63": 302.53
+      },
+      "best_effective": {
+        "store": "Store GL36",
+        "cost_usd": 219.99
+      },
+      "pick_effective_cost_usd": 219.99,
+      "extra_over_best_usd": 0,
+      "target_p_drop": 0.01,
+      "target_expected_drop_usd": 44.06,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Over-Ear Headphones · #Y28",
+      "level": "cover",
+      "stake_usd": 45,
+      "sample": 1,
+      "decision": "buy",
+      "pick": "Store GL36",
+      "valid": true,
+      "bought_target": true,
+      "reason": "Store GL36 offers the lowest current price at $219.99 and provides price protection covering drops up to $45 through the day after Black Friday.",
+      "target": "Store GL36",
+      "effective_costs_usd": {
+        "Store GL36": 219.99,
+        "Store RF75": 230.7,
+        "Store TL63": 302.53
+      },
+      "best_effective": {
+        "store": "Store GL36",
+        "cost_usd": 219.99
+      },
+      "pick_effective_cost_usd": 219.99,
+      "extra_over_best_usd": 0,
+      "target_p_drop": 0.01,
+      "target_expected_drop_usd": 44.06,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Over-Ear Headphones · #Y28",
+      "level": "cover",
+      "stake_usd": 45,
+      "sample": 2,
+      "decision": "buy",
+      "pick": "Store GL36",
+      "valid": true,
+      "bought_target": true,
+      "reason": "Store GL36 currently offers the lowest price at $219.99 along with an automatic price-drop refund of up to $45 covering the period through Black Friday, protecting against potential post-purchase discounts.",
+      "target": "Store GL36",
+      "effective_costs_usd": {
+        "Store GL36": 219.99,
+        "Store RF75": 230.7,
+        "Store TL63": 302.53
+      },
+      "best_effective": {
+        "store": "Store GL36",
+        "cost_usd": 219.99
+      },
+      "pick_effective_cost_usd": 219.99,
+      "extra_over_best_usd": 0,
+      "target_p_drop": 0.01,
+      "target_expected_drop_usd": 44.06,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Water Bottles · #H46",
+      "level": "none",
+      "stake_usd": 0,
+      "sample": 0,
+      "decision": "wait",
+      "pick": null,
+      "valid": true,
+      "bought_target": false,
+      "reason": "All stores currently list the item at full retail price of $44.95 with no discounts or price guarantees. Waiting closer to Black Friday offers a strong chance of finding a sale without risking a missed deal.",
+      "target": "Store VZ89",
+      "effective_costs_usd": {
+        "Store VZ89": 45.06,
+        "Store UX89": 45.1,
+        "Store EY28": 44.99,
+        "Store VA49": 45.01
+      },
+      "best_effective": {
+        "store": "Store EY28",
+        "cost_usd": 44.99
+      },
+      "pick_effective_cost_usd": null,
+      "extra_over_best_usd": null,
+      "target_p_drop": 0.01,
+      "target_expected_drop_usd": 9,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Water Bottles · #H46",
+      "level": "none",
+      "stake_usd": 0,
+      "sample": 1,
+      "decision": "wait",
+      "pick": null,
+      "valid": true,
+      "bought_target": false,
+      "reason": "All stores currently list the item at the standard price of $44.95 with no price drop guarantees. Waiting for Black Friday in 30 days provides a strong chance of discounts without missing an existing deal.",
+      "target": "Store VZ89",
+      "effective_costs_usd": {
+        "Store VZ89": 45.06,
+        "Store UX89": 45.1,
+        "Store EY28": 44.99,
+        "Store VA49": 45.01
+      },
+      "best_effective": {
+        "store": "Store EY28",
+        "cost_usd": 44.99
+      },
+      "pick_effective_cost_usd": null,
+      "extra_over_best_usd": null,
+      "target_p_drop": 0.01,
+      "target_expected_drop_usd": 9,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Water Bottles · #H46",
+      "level": "none",
+      "stake_usd": 0,
+      "sample": 2,
+      "decision": "wait",
+      "pick": null,
+      "valid": true,
+      "bought_target": false,
+      "reason": "All stores currently offer the item at the standard price of $44.95 with no price guarantees. With Black Friday 30 days away, waiting offers a strong chance of discounts without the risk of missing out on a current deal.",
+      "target": "Store VZ89",
+      "effective_costs_usd": {
+        "Store VZ89": 45.06,
+        "Store UX89": 45.1,
+        "Store EY28": 44.99,
+        "Store VA49": 45.01
+      },
+      "best_effective": {
+        "store": "Store EY28",
+        "cost_usd": 44.99
+      },
+      "pick_effective_cost_usd": null,
+      "extra_over_best_usd": null,
+      "target_p_drop": 0.01,
+      "target_expected_drop_usd": 9,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Water Bottles · #H46",
+      "level": "cover",
+      "stake_usd": 9,
+      "sample": 0,
+      "decision": "buy",
+      "pick": "Store VZ89",
+      "valid": true,
+      "bought_target": true,
+      "reason": "Store VZ89 offers a price drop protection guarantee with automatic refunds up to $9 covering the period through Black Friday, allowing purchase now without risk of missing early drops.",
+      "target": "Store VZ89",
+      "effective_costs_usd": {
+        "Store VZ89": 44.95,
+        "Store UX89": 45.1,
+        "Store EY28": 44.99,
+        "Store VA49": 45.01
+      },
+      "best_effective": {
+        "store": "Store VZ89",
+        "cost_usd": 44.95
+      },
+      "pick_effective_cost_usd": 44.95,
+      "extra_over_best_usd": 0,
+      "target_p_drop": 0.01,
+      "target_expected_drop_usd": 9,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Water Bottles · #H46",
+      "level": "cover",
+      "stake_usd": 9,
+      "sample": 1,
+      "decision": "buy",
+      "pick": "Store VZ89",
+      "valid": true,
+      "bought_target": true,
+      "reason": "Store VZ89 offers an automatic refund guarantee on price drops up to $9 through the day after Black Friday, protecting against potential sales.",
+      "target": "Store VZ89",
+      "effective_costs_usd": {
+        "Store VZ89": 44.95,
+        "Store UX89": 45.1,
+        "Store EY28": 44.99,
+        "Store VA49": 45.01
+      },
+      "best_effective": {
+        "store": "Store VZ89",
+        "cost_usd": 44.95
+      },
+      "pick_effective_cost_usd": 44.95,
+      "extra_over_best_usd": 0,
+      "target_p_drop": 0.01,
+      "target_expected_drop_usd": 9,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Water Bottles · #H46",
+      "level": "cover",
+      "stake_usd": 9,
+      "sample": 2,
+      "decision": "buy",
+      "pick": "Store VZ89",
+      "valid": true,
+      "bought_target": true,
+      "reason": "Store VZ89 offers the item at the standard price of $44.95 along with an automatic refund of up to $9 if their price drops through Black Friday, providing protection against post-purchase price reductions.",
+      "target": "Store VZ89",
+      "effective_costs_usd": {
+        "Store VZ89": 44.95,
+        "Store UX89": 45.1,
+        "Store EY28": 44.99,
+        "Store VA49": 45.01
+      },
+      "best_effective": {
+        "store": "Store VZ89",
+        "cost_usd": 44.95
+      },
+      "pick_effective_cost_usd": 44.95,
+      "extra_over_best_usd": 0,
+      "target_p_drop": 0.01,
+      "target_expected_drop_usd": 9,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Video Game Console Accessories · #D15",
+      "level": "none",
+      "stake_usd": 0,
+      "sample": 0,
+      "decision": "wait",
+      "pick": null,
+      "valid": true,
+      "bought_target": false,
+      "reason": "Black Friday is just 30 days away, and none of the stores currently offer a price match or protection guarantee against future markdowns. Waiting is likely to yield better discounts on video game console accessories.",
+      "target": "Store WX16",
+      "effective_costs_usd": {
+        "Store WX16": 357.08,
+        "Store EU30": 351.71,
+        "Store WL11": 493.92
+      },
+      "best_effective": {
+        "store": "Store EU30",
+        "cost_usd": 351.71
+      },
+      "pick_effective_cost_usd": null,
+      "extra_over_best_usd": null,
+      "target_p_drop": 0.1,
+      "target_expected_drop_usd": 70.09,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Video Game Console Accessories · #D15",
+      "level": "none",
+      "stake_usd": 0,
+      "sample": 1,
+      "decision": "wait",
+      "pick": null,
+      "valid": true,
+      "bought_target": false,
+      "reason": "With Black Friday only 30 days away and no stores offering price protection or guarantees, waiting offers a strong chance of discounts on gaming accessories without risk of post-purchase price drops.",
+      "target": "Store WX16",
+      "effective_costs_usd": {
+        "Store WX16": 357.08,
+        "Store EU30": 351.71,
+        "Store WL11": 493.92
+      },
+      "best_effective": {
+        "store": "Store EU30",
+        "cost_usd": 351.71
+      },
+      "pick_effective_cost_usd": null,
+      "extra_over_best_usd": null,
+      "target_p_drop": 0.1,
+      "target_expected_drop_usd": 70.09,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Video Game Console Accessories · #D15",
+      "level": "none",
+      "stake_usd": 0,
+      "sample": 2,
+      "decision": "wait",
+      "pick": null,
+      "valid": true,
+      "bought_target": false,
+      "reason": "Black Friday is only 30 days away and none of the stores offer price protection guarantees. Waiting is advisable since video game console accessories frequently see substantial discounts during holiday sales.",
+      "target": "Store WX16",
+      "effective_costs_usd": {
+        "Store WX16": 357.08,
+        "Store EU30": 351.71,
+        "Store WL11": 493.92
+      },
+      "best_effective": {
+        "store": "Store EU30",
+        "cost_usd": 351.71
+      },
+      "pick_effective_cost_usd": null,
+      "extra_over_best_usd": null,
+      "target_p_drop": 0.1,
+      "target_expected_drop_usd": 70.09,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Video Game Console Accessories · #D15",
+      "level": "cover",
+      "stake_usd": 71,
+      "sample": 0,
+      "decision": "buy",
+      "pick": "Store WX16",
+      "valid": true,
+      "bought_target": true,
+      "reason": "Store WX16 offers the lowest current price of $349.99 along with price protection that refunds price drops up to $71 through Black Friday.",
+      "target": "Store WX16",
+      "effective_costs_usd": {
+        "Store WX16": 349.99,
+        "Store EU30": 351.71,
+        "Store WL11": 493.92
+      },
+      "best_effective": {
+        "store": "Store WX16",
+        "cost_usd": 349.99
+      },
+      "pick_effective_cost_usd": 349.99,
+      "extra_over_best_usd": 0,
+      "target_p_drop": 0.1,
+      "target_expected_drop_usd": 70.09,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Video Game Console Accessories · #D15",
+      "level": "cover",
+      "stake_usd": 71,
+      "sample": 1,
+      "decision": "buy",
+      "pick": "Store WX16",
+      "valid": true,
+      "bought_target": true,
+      "reason": "Store WX16 offers the lowest current price along with price protection that automatically refunds drops up to $71 through the day after Black Friday.",
+      "target": "Store WX16",
+      "effective_costs_usd": {
+        "Store WX16": 349.99,
+        "Store EU30": 351.71,
+        "Store WL11": 493.92
+      },
+      "best_effective": {
+        "store": "Store WX16",
+        "cost_usd": 349.99
+      },
+      "pick_effective_cost_usd": 349.99,
+      "extra_over_best_usd": 0,
+      "target_p_drop": 0.1,
+      "target_expected_drop_usd": 70.09,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Video Game Console Accessories · #D15",
+      "level": "cover",
+      "stake_usd": 71,
+      "sample": 2,
+      "decision": "buy",
+      "pick": "Store WX16",
+      "valid": true,
+      "bought_target": true,
+      "reason": "Store WX16 offers the lowest current price of $349.99 and includes price drop protection through Black Friday with up to a $71 refund. This ensures you secure the best available rate without risking money if the price drops.",
+      "target": "Store WX16",
+      "effective_costs_usd": {
+        "Store WX16": 349.99,
+        "Store EU30": 351.71,
+        "Store WL11": 493.92
+      },
+      "best_effective": {
+        "store": "Store WX16",
+        "cost_usd": 349.99
+      },
+      "pick_effective_cost_usd": 349.99,
+      "extra_over_best_usd": 0,
+      "target_p_drop": 0.1,
+      "target_expected_drop_usd": 70.09,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Portable Bluetooth Speakers · #L53",
+      "level": "none",
+      "stake_usd": 0,
+      "sample": 0,
+      "decision": "wait",
+      "pick": null,
+      "valid": true,
+      "bought_target": false,
+      "reason": "Black Friday is just 30 days away, and neither store offers a price protection guarantee against upcoming holiday discounts on portable speakers.",
+      "target": "Store RM17",
+      "effective_costs_usd": {
+        "Store RM17": 90.1,
+        "Store XA15": 158.62
+      },
+      "best_effective": {
+        "store": "Store RM17",
+        "cost_usd": 90.1
+      },
+      "pick_effective_cost_usd": null,
+      "extra_over_best_usd": null,
+      "target_p_drop": 0.01,
+      "target_expected_drop_usd": 18.01,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Portable Bluetooth Speakers · #L53",
+      "level": "none",
+      "stake_usd": 0,
+      "sample": 1,
+      "decision": "wait",
+      "pick": null,
+      "valid": true,
+      "bought_target": false,
+      "reason": "Black Friday is 30 days away and neither store offers a price protection guarantee. Waiting is advisable to see if prices drop further during upcoming holiday sales.",
+      "target": "Store RM17",
+      "effective_costs_usd": {
+        "Store RM17": 90.1,
+        "Store XA15": 158.62
+      },
+      "best_effective": {
+        "store": "Store RM17",
+        "cost_usd": 90.1
+      },
+      "pick_effective_cost_usd": null,
+      "extra_over_best_usd": null,
+      "target_p_drop": 0.01,
+      "target_expected_drop_usd": 18.01,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Portable Bluetooth Speakers · #L53",
+      "level": "none",
+      "stake_usd": 0,
+      "sample": 2,
+      "decision": "wait",
+      "pick": null,
+      "valid": true,
+      "bought_target": false,
+      "reason": "Black Friday is only 30 days away and neither store offers a price guarantee or price-drop protection. Waiting is advisable since portable electronics frequently see significant discounts during holiday sales.",
+      "target": "Store RM17",
+      "effective_costs_usd": {
+        "Store RM17": 90.1,
+        "Store XA15": 158.62
+      },
+      "best_effective": {
+        "store": "Store RM17",
+        "cost_usd": 90.1
+      },
+      "pick_effective_cost_usd": null,
+      "extra_over_best_usd": null,
+      "target_p_drop": 0.01,
+      "target_expected_drop_usd": 18.01,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Portable Bluetooth Speakers · #L53",
+      "level": "cover",
+      "stake_usd": 19,
+      "sample": 0,
+      "decision": "buy",
+      "pick": "Store RM17",
+      "valid": true,
+      "bought_target": true,
+      "reason": "Store RM17 offers the lowest price by far at $89.95, and its price protection covers any price drops through Black Friday up to $19.",
+      "target": "Store RM17",
+      "effective_costs_usd": {
+        "Store RM17": 89.95,
+        "Store XA15": 158.62
+      },
+      "best_effective": {
+        "store": "Store RM17",
+        "cost_usd": 89.95
+      },
+      "pick_effective_cost_usd": 89.95,
+      "extra_over_best_usd": 0,
+      "target_p_drop": 0.01,
+      "target_expected_drop_usd": 18.01,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Portable Bluetooth Speakers · #L53",
+      "level": "cover",
+      "stake_usd": 19,
+      "sample": 1,
+      "decision": "buy",
+      "pick": "Store RM17",
+      "valid": true,
+      "bought_target": true,
+      "reason": "Store RM17 offers a significantly lower price of $89.95 along with an automatic price drop guarantee that refunds drops up to $19 through Black Friday.",
+      "target": "Store RM17",
+      "effective_costs_usd": {
+        "Store RM17": 89.95,
+        "Store XA15": 158.62
+      },
+      "best_effective": {
+        "store": "Store RM17",
+        "cost_usd": 89.95
+      },
+      "pick_effective_cost_usd": 89.95,
+      "extra_over_best_usd": 0,
+      "target_p_drop": 0.01,
+      "target_expected_drop_usd": 18.01,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Portable Bluetooth Speakers · #L53",
+      "level": "cover",
+      "stake_usd": 19,
+      "sample": 2,
+      "decision": "buy",
+      "pick": "Store RM17",
+      "valid": true,
+      "bought_target": true,
+      "reason": "Store RM17 offers the significantly lower price of $89.95 along with an automatic price-drop refund of up to $19 through Black Friday, protecting against post-purchase price declines.",
+      "target": "Store RM17",
+      "effective_costs_usd": {
+        "Store RM17": 89.95,
+        "Store XA15": 158.62
+      },
+      "best_effective": {
+        "store": "Store RM17",
+        "cost_usd": 89.95
+      },
+      "pick_effective_cost_usd": 89.95,
+      "extra_over_best_usd": 0,
+      "target_p_drop": 0.01,
+      "target_expected_drop_usd": 18.01,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Portable Bluetooth Speakers · #N46",
+      "level": "none",
+      "stake_usd": 0,
+      "sample": 0,
+      "decision": "wait",
+      "pick": null,
+      "valid": true,
+      "bought_target": false,
+      "reason": "Black Friday is only 30 days away and none of the stores offer a price guarantee to protect against potential price drops.",
+      "target": "Store TD64",
+      "effective_costs_usd": {
+        "Store TD64": 150.1,
+        "Store YA43": 180.8,
+        "Store SU82": 201.49,
+        "Store XL22": 201.41,
+        "Store PM14": 216.08
+      },
+      "best_effective": {
+        "store": "Store TD64",
+        "cost_usd": 150.1
+      },
+      "pick_effective_cost_usd": null,
+      "extra_over_best_usd": null,
+      "target_p_drop": 0,
+      "target_expected_drop_usd": 30.03,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Portable Bluetooth Speakers · #N46",
+      "level": "none",
+      "stake_usd": 0,
+      "sample": 1,
+      "decision": "wait",
+      "pick": null,
+      "valid": true,
+      "bought_target": false,
+      "reason": "Black Friday is only 30 days away and none of the stores offer price protection guarantees against future price drops. Waiting offers a strong chance of securing a better deal during the holiday sales.",
+      "target": "Store TD64",
+      "effective_costs_usd": {
+        "Store TD64": 150.1,
+        "Store YA43": 180.8,
+        "Store SU82": 201.49,
+        "Store XL22": 201.41,
+        "Store PM14": 216.08
+      },
+      "best_effective": {
+        "store": "Store TD64",
+        "cost_usd": 150.1
+      },
+      "pick_effective_cost_usd": null,
+      "extra_over_best_usd": null,
+      "target_p_drop": 0,
+      "target_expected_drop_usd": 30.03,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Portable Bluetooth Speakers · #N46",
+      "level": "none",
+      "stake_usd": 0,
+      "sample": 2,
+      "decision": "wait",
+      "pick": null,
+      "valid": true,
+      "bought_target": false,
+      "reason": "Black Friday is only 30 days away and none of the stores offer price protection against future discounts. Portable speakers typically see deeper promotions during holiday sales, making it safer to wait.",
+      "target": "Store TD64",
+      "effective_costs_usd": {
+        "Store TD64": 150.1,
+        "Store YA43": 180.8,
+        "Store SU82": 201.49,
+        "Store XL22": 201.41,
+        "Store PM14": 216.08
+      },
+      "best_effective": {
+        "store": "Store TD64",
+        "cost_usd": 150.1
+      },
+      "pick_effective_cost_usd": null,
+      "extra_over_best_usd": null,
+      "target_p_drop": 0,
+      "target_expected_drop_usd": 30.03,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Portable Bluetooth Speakers · #N46",
+      "level": "cover",
+      "stake_usd": 31,
+      "sample": 0,
+      "decision": "buy",
+      "pick": "Store TD64",
+      "valid": true,
+      "bought_target": true,
+      "reason": "Store TD64 offers the lowest price at $149.95, alongside a price drop protection refund up to $31 through Black Friday.",
+      "target": "Store TD64",
+      "effective_costs_usd": {
+        "Store TD64": 149.95,
+        "Store YA43": 180.8,
+        "Store SU82": 201.49,
+        "Store XL22": 201.41,
+        "Store PM14": 216.08
+      },
+      "best_effective": {
+        "store": "Store TD64",
+        "cost_usd": 149.95
+      },
+      "pick_effective_cost_usd": 149.95,
+      "extra_over_best_usd": 0,
+      "target_p_drop": 0,
+      "target_expected_drop_usd": 30.03,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Portable Bluetooth Speakers · #N46",
+      "level": "cover",
+      "stake_usd": 31,
+      "sample": 1,
+      "decision": "buy",
+      "pick": "Store TD64",
+      "valid": true,
+      "bought_target": true,
+      "reason": "Store TD64 offers the lowest current price at $149.95 and includes automatic price protection with up to a $31 refund if their price drops through Black Friday.",
+      "target": "Store TD64",
+      "effective_costs_usd": {
+        "Store TD64": 149.95,
+        "Store YA43": 180.8,
+        "Store SU82": 201.49,
+        "Store XL22": 201.41,
+        "Store PM14": 216.08
+      },
+      "best_effective": {
+        "store": "Store TD64",
+        "cost_usd": 149.95
+      },
+      "pick_effective_cost_usd": 149.95,
+      "extra_over_best_usd": 0,
+      "target_p_drop": 0,
+      "target_expected_drop_usd": 30.03,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Portable Bluetooth Speakers · #N46",
+      "level": "cover",
+      "stake_usd": 31,
+      "sample": 2,
+      "decision": "buy",
+      "pick": "Store TD64",
+      "valid": true,
+      "bought_target": true,
+      "reason": "Store TD64 offers the lowest price by a wide margin at $149.95, and its price-drop protection covers any decrease through Black Friday with up to a $31 automatic refund.",
+      "target": "Store TD64",
+      "effective_costs_usd": {
+        "Store TD64": 149.95,
+        "Store YA43": 180.8,
+        "Store SU82": 201.49,
+        "Store XL22": 201.41,
+        "Store PM14": 216.08
+      },
+      "best_effective": {
+        "store": "Store TD64",
+        "cost_usd": 149.95
+      },
+      "pick_effective_cost_usd": 149.95,
+      "extra_over_best_usd": 0,
+      "target_p_drop": 0,
+      "target_expected_drop_usd": 30.03,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Mirrorless Digital Cameras · #R84",
+      "level": "none",
+      "stake_usd": 0,
+      "sample": 0,
+      "decision": "wait",
+      "pick": null,
+      "valid": true,
+      "bought_target": false,
+      "reason": "Black Friday is only 30 days away and none of the stores offer a price protection guarantee. Waiting gives a strong chance of finding deeper discounts or promotional bundles on electronics without risking a post-purchase price drop.",
+      "target": "Store GL36",
+      "effective_costs_usd": {
+        "Store GL36": 682.32,
+        "Store RF75": 746.7,
+        "Store XL22": 875.93,
+        "Store WL11": 1051.09
+      },
+      "best_effective": {
+        "store": "Store GL36",
+        "cost_usd": 682.32
+      },
+      "pick_effective_cost_usd": null,
+      "extra_over_best_usd": null,
+      "target_p_drop": 0.02,
+      "target_expected_drop_usd": 135.98,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Mirrorless Digital Cameras · #R84",
+      "level": "none",
+      "stake_usd": 0,
+      "sample": 1,
+      "decision": "wait",
+      "pick": null,
+      "valid": true,
+      "bought_target": false,
+      "reason": "Black Friday is only 30 days away, and high-ticket electronics like mirrorless cameras frequently see major discounts. Since none of the retailers offer price-drop guarantees, waiting is the safer option to avoid overpaying.",
+      "target": "Store GL36",
+      "effective_costs_usd": {
+        "Store GL36": 682.32,
+        "Store RF75": 746.7,
+        "Store XL22": 875.93,
+        "Store WL11": 1051.09
+      },
+      "best_effective": {
+        "store": "Store GL36",
+        "cost_usd": 682.32
+      },
+      "pick_effective_cost_usd": null,
+      "extra_over_best_usd": null,
+      "target_p_drop": 0.02,
+      "target_expected_drop_usd": 135.98,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Mirrorless Digital Cameras · #R84",
+      "level": "none",
+      "stake_usd": 0,
+      "sample": 2,
+      "decision": "wait",
+      "pick": null,
+      "valid": true,
+      "bought_target": false,
+      "reason": "Black Friday is only 30 days away, and none of the stores currently offer price guarantees or promotional protections against post-purchase price drops on this camera.",
+      "target": "Store GL36",
+      "effective_costs_usd": {
+        "Store GL36": 682.32,
+        "Store RF75": 746.7,
+        "Store XL22": 875.93,
+        "Store WL11": 1051.09
+      },
+      "best_effective": {
+        "store": "Store GL36",
+        "cost_usd": 682.32
+      },
+      "pick_effective_cost_usd": null,
+      "extra_over_best_usd": null,
+      "target_p_drop": 0.02,
+      "target_expected_drop_usd": 135.98,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Mirrorless Digital Cameras · #R84",
+      "level": "cover",
+      "stake_usd": 136,
+      "sample": 0,
+      "decision": "buy",
+      "pick": "Store GL36",
+      "valid": true,
+      "bought_target": true,
+      "reason": "Store GL36 offers the lowest current price at $679 alongside an automatic price-drop guarantee through Black Friday with up to $136 in refund protection.",
+      "target": "Store GL36",
+      "effective_costs_usd": {
+        "Store GL36": 679,
+        "Store RF75": 746.7,
+        "Store XL22": 875.93,
+        "Store WL11": 1051.09
+      },
+      "best_effective": {
+        "store": "Store GL36",
+        "cost_usd": 679
+      },
+      "pick_effective_cost_usd": 679,
+      "extra_over_best_usd": 0,
+      "target_p_drop": 0.02,
+      "target_expected_drop_usd": 135.98,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Mirrorless Digital Cameras · #R84",
+      "level": "cover",
+      "stake_usd": 136,
+      "sample": 1,
+      "decision": "buy",
+      "pick": "Store GL36",
+      "valid": true,
+      "bought_target": true,
+      "reason": "Store GL36 offers the lowest price at $679 and includes price drop protection with automatic refunds up to $136 through Black Friday.",
+      "target": "Store GL36",
+      "effective_costs_usd": {
+        "Store GL36": 679,
+        "Store RF75": 746.7,
+        "Store XL22": 875.93,
+        "Store WL11": 1051.09
+      },
+      "best_effective": {
+        "store": "Store GL36",
+        "cost_usd": 679
+      },
+      "pick_effective_cost_usd": 679,
+      "extra_over_best_usd": 0,
+      "target_p_drop": 0.02,
+      "target_expected_drop_usd": 135.98,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Mirrorless Digital Cameras · #R84",
+      "level": "cover",
+      "stake_usd": 136,
+      "sample": 2,
+      "decision": "buy",
+      "pick": "Store GL36",
+      "valid": true,
+      "bought_target": true,
+      "reason": "Store GL36 currently offers the lowest price at $679 and includes price protection with an automatic refund of up to $136 if the price drops through Black Friday.",
+      "target": "Store GL36",
+      "effective_costs_usd": {
+        "Store GL36": 679,
+        "Store RF75": 746.7,
+        "Store XL22": 875.93,
+        "Store WL11": 1051.09
+      },
+      "best_effective": {
+        "store": "Store GL36",
+        "cost_usd": 679
+      },
+      "pick_effective_cost_usd": 679,
+      "extra_over_best_usd": 0,
+      "target_p_drop": 0.02,
+      "target_expected_drop_usd": 135.98,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Sneakers · #Q33",
+      "level": "none",
+      "stake_usd": 0,
+      "sample": 0,
+      "decision": "wait",
+      "pick": null,
+      "valid": true,
+      "bought_target": false,
+      "reason": "Black Friday is 30 days away and none of the stores offer a price guarantee against future discounts. Waiting provides an opportunity for better deals without the risk of losing money if the price drops.",
+      "target": "Store WK68",
+      "effective_costs_usd": {
+        "Store WK68": 86.52,
+        "Store RT63": 100.13,
+        "Store ZF11": 127.13
+      },
+      "best_effective": {
+        "store": "Store WK68",
+        "cost_usd": 86.52
+      },
+      "pick_effective_cost_usd": null,
+      "extra_over_best_usd": null,
+      "target_p_drop": 0.09,
+      "target_expected_drop_usd": 17.02,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Sneakers · #Q33",
+      "level": "none",
+      "stake_usd": 0,
+      "sample": 1,
+      "decision": "wait",
+      "pick": null,
+      "valid": true,
+      "bought_target": false,
+      "reason": "Black Friday is only 30 days away and none of the stores offer a price guarantee or price match. Waiting gives a strong chance of finding a better deal without risking an immediate post-purchase price drop.",
+      "target": "Store WK68",
+      "effective_costs_usd": {
+        "Store WK68": 86.52,
+        "Store RT63": 100.13,
+        "Store ZF11": 127.13
+      },
+      "best_effective": {
+        "store": "Store WK68",
+        "cost_usd": 86.52
+      },
+      "pick_effective_cost_usd": null,
+      "extra_over_best_usd": null,
+      "target_p_drop": 0.09,
+      "target_expected_drop_usd": 17.02,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Sneakers · #Q33",
+      "level": "none",
+      "stake_usd": 0,
+      "sample": 2,
+      "decision": "wait",
+      "pick": null,
+      "valid": true,
+      "bought_target": false,
+      "reason": "Black Friday is only 30 days away and none of the stores offer price protection guarantees against future markdowns. Waiting is safer to avoid losing money if sneaker prices drop during upcoming holiday sales.",
+      "target": "Store WK68",
+      "effective_costs_usd": {
+        "Store WK68": 86.52,
+        "Store RT63": 100.13,
+        "Store ZF11": 127.13
+      },
+      "best_effective": {
+        "store": "Store WK68",
+        "cost_usd": 86.52
+      },
+      "pick_effective_cost_usd": null,
+      "extra_over_best_usd": null,
+      "target_p_drop": 0.09,
+      "target_expected_drop_usd": 17.02,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Sneakers · #Q33",
+      "level": "cover",
+      "stake_usd": 18,
+      "sample": 0,
+      "decision": "buy",
+      "pick": "Store WK68",
+      "valid": true,
+      "bought_target": true,
+      "reason": "Store WK68 currently offers the lowest price at $85 and includes price-drop protection with automatic refunds up to $18 through Black Friday. This secures an effective price as low as $67 without the risk of missing out or losing money to a subsequent discount.",
+      "target": "Store WK68",
+      "effective_costs_usd": {
+        "Store WK68": 85,
+        "Store RT63": 100.13,
+        "Store ZF11": 127.13
+      },
+      "best_effective": {
+        "store": "Store WK68",
+        "cost_usd": 85
+      },
+      "pick_effective_cost_usd": 85,
+      "extra_over_best_usd": 0,
+      "target_p_drop": 0.09,
+      "target_expected_drop_usd": 17.02,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Sneakers · #Q33",
+      "level": "cover",
+      "stake_usd": 18,
+      "sample": 1,
+      "decision": "buy",
+      "pick": "Store WK68",
+      "valid": true,
+      "bought_target": true,
+      "reason": "Store WK68 offers the lowest current price at $85 and includes an automatic price protection refund up to $18 covering Black Friday through November 28.",
+      "target": "Store WK68",
+      "effective_costs_usd": {
+        "Store WK68": 85,
+        "Store RT63": 100.13,
+        "Store ZF11": 127.13
+      },
+      "best_effective": {
+        "store": "Store WK68",
+        "cost_usd": 85
+      },
+      "pick_effective_cost_usd": 85,
+      "extra_over_best_usd": 0,
+      "target_p_drop": 0.09,
+      "target_expected_drop_usd": 17.02,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    },
+    {
+      "product": "Sneakers · #Q33",
+      "level": "cover",
+      "stake_usd": 18,
+      "sample": 2,
+      "decision": "buy",
+      "pick": "Store WK68",
+      "valid": true,
+      "bought_target": true,
+      "reason": "Store WK68 currently offers the lowest price at $85 along with price drop protection covering Black Friday, protecting against future price cuts.",
+      "target": "Store WK68",
+      "effective_costs_usd": {
+        "Store WK68": 85,
+        "Store RT63": 100.13,
+        "Store ZF11": 127.13
+      },
+      "best_effective": {
+        "store": "Store WK68",
+        "cost_usd": 85
+      },
+      "pick_effective_cost_usd": 85,
+      "extra_over_best_usd": 0,
+      "target_p_drop": 0.09,
+      "target_expected_drop_usd": 17.02,
+      "risk_method": "14-day model chained over 31 days (approximation)"
+    }
+  ]
+}

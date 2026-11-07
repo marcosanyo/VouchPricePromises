@@ -1,0 +1,127 @@
+{
+  "run_at": "2026-10-30T06:03:24.353Z",
+  "data_days": {
+    "from": "2026-09-26",
+    "to": "2026-10-30"
+  },
+  "note": "Measured part: real Channel3 daily prices, ordinary period (no Black Friday in the data); the promise refunds the full difference of the store’s own later price. Scenario part: markdown size k and the chance q that the store cuts are assumptions; gross margin 20% is an assumption.",
+  "measured": [
+    {
+      "window_days": 7,
+      "listings": 119,
+      "store_days": 2616,
+      "drop_rate": 0.1116,
+      "drop_size_when_it_happens": 0.1445,
+      "expected_refund_share_of_price": 0.0161,
+      "p90_refund_share_of_price": 0.0104
+    },
+    {
+      "window_days": 14,
+      "listings": 112,
+      "store_days": 1804,
+      "drop_rate": 0.1746,
+      "drop_size_when_it_happens": 0.1508,
+      "expected_refund_share_of_price": 0.0263,
+      "p90_refund_share_of_price": 0.1329
+    }
+  ],
+  "gross_margin_assumed": 0.2,
+  "scenarios": [
+    {
+      "markdown": 0.1,
+      "chance_store_cuts": 0,
+      "cut_now_cost": 0.1,
+      "promise_expected_cost": 0.0263,
+      "margin_left_cut_now": 0.1,
+      "margin_left_promise": 0.1737
+    },
+    {
+      "markdown": 0.1,
+      "chance_store_cuts": 0.25,
+      "cut_now_cost": 0.1,
+      "promise_expected_cost": 0.0447,
+      "margin_left_cut_now": 0.1,
+      "margin_left_promise": 0.1553
+    },
+    {
+      "markdown": 0.1,
+      "chance_store_cuts": 0.5,
+      "cut_now_cost": 0.1,
+      "promise_expected_cost": 0.0632,
+      "margin_left_cut_now": 0.1,
+      "margin_left_promise": 0.1369
+    },
+    {
+      "markdown": 0.1,
+      "chance_store_cuts": 1,
+      "cut_now_cost": 0.1,
+      "promise_expected_cost": 0.1,
+      "margin_left_cut_now": 0.1,
+      "margin_left_promise": 0.1
+    },
+    {
+      "markdown": 0.2,
+      "chance_store_cuts": 0,
+      "cut_now_cost": 0.2,
+      "promise_expected_cost": 0.0263,
+      "margin_left_cut_now": 0,
+      "margin_left_promise": 0.1737
+    },
+    {
+      "markdown": 0.2,
+      "chance_store_cuts": 0.25,
+      "cut_now_cost": 0.2,
+      "promise_expected_cost": 0.0697,
+      "margin_left_cut_now": 0,
+      "margin_left_promise": 0.1303
+    },
+    {
+      "markdown": 0.2,
+      "chance_store_cuts": 0.5,
+      "cut_now_cost": 0.2,
+      "promise_expected_cost": 0.1132,
+      "margin_left_cut_now": 0,
+      "margin_left_promise": 0.0869
+    },
+    {
+      "markdown": 0.2,
+      "chance_store_cuts": 1,
+      "cut_now_cost": 0.2,
+      "promise_expected_cost": 0.2,
+      "margin_left_cut_now": 0,
+      "margin_left_promise": 0
+    },
+    {
+      "markdown": 0.3,
+      "chance_store_cuts": 0,
+      "cut_now_cost": 0.3,
+      "promise_expected_cost": 0.0263,
+      "margin_left_cut_now": -0.1,
+      "margin_left_promise": 0.1737
+    },
+    {
+      "markdown": 0.3,
+      "chance_store_cuts": 0.25,
+      "cut_now_cost": 0.3,
+      "promise_expected_cost": 0.0947,
+      "margin_left_cut_now": -0.1,
+      "margin_left_promise": 0.1053
+    },
+    {
+      "markdown": 0.3,
+      "chance_store_cuts": 0.5,
+      "cut_now_cost": 0.3,
+      "promise_expected_cost": 0.1632,
+      "margin_left_cut_now": -0.1,
+      "margin_left_promise": 0.0369
+    },
+    {
+      "markdown": 0.3,
+      "chance_store_cuts": 1,
+      "cut_now_cost": 0.3,
+      "promise_expected_cost": 0.3,
+      "margin_left_cut_now": -0.1,
+      "margin_left_promise": -0.1
+    }
+  ]
+}
