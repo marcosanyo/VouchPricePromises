@@ -178,6 +178,8 @@ Held-out results (items split by product group, Channel3 daily history 2026-09-2
 
 The web app's *Model check* page shows the reliability tables.
 
+**Pre-registered check on future prices.** On 2026-10-26 we wrote 126 predictions, hashed, into the ledger before their outcomes existed. By 2026-11-10, 114 had resolved (12 had too few price days to judge) and 29 of them dropped. Brier 0.174 against 0.201 for always predicting the training drop rate (14.8%); AUC 0.81. The ranking held up outside the training period, but the level was too low: the predictions averaged 9.3%, while 25.4% actually dropped. The window ran into the weeks before Black Friday, which may explain the gap; we have not tested that. The verdict and the refund never use the model, so what the store pays back is still decided by its real prices alone.
+
 ## Architecture
 
 ![Vouch architecture: the agent plane (Cloud Run, Gemini 3.8 Flash buyer and store agents, the drop-risk model, Channel3 prices) proposes; the trust plane (AP2 mandates, verify_promise over MCP, the promise registry and hash-chained ledger, the rules judge, PayPal Sandbox) decides and executes. No AI touches the verdict or the money.](docs/images/architecture.png)
